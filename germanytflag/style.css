@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: black;
+    padding: 20px;
+    width: 200px;
+    height: 5000px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.color1 {
+    background-color: black;
+    padding: 20px;
+
+}
+
+.color2 {
+    background-color: red;
+    padding: 20px;
+
+}
+
+.color3 {
+    background-color: gold;
+    padding: 20px;
+
+}
