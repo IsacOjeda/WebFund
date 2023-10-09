@@ -70,3 +70,16 @@ function concatArrWithSelf(items) {
         result.push(items[i])
 }
 return result;
+
+/**
+ * Bonus round
+ * Write an array backwards!!
+ */
+function writeArrayBackwards(arr) {
+    let result = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+        result.push(arr[i]);
+    }
+    return result;
+}
+console.log(writeArrayBackwards([1, 2, 3]), "should be [3,2,1]");
