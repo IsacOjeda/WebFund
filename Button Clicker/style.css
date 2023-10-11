@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*======================general==========================*/
+.flex {
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.italic{
+    font-style: italic;
+}
+.justcenter{
+    justify-content: center;
+}
+.aligncenter{
+    align-items: center;
+}
+.w900w{
+    width: 900px;
+    background-color: rgb(184, 184, 184);
+}
+.w900{
+    width: 800px;
+}
+.w500{
+    width: 200px;
+}
+.margauto{
+    margin: auto;
+}
+.spaceeven{
+    justify-content: space-evenly;
+}
+.spacebet{
+    justify-content: space-between;
+}
+.gap250{
+    gap: 120px;
+}
+.gap30{
+    gap: 30px;
+}
+.vertgap30{
+    margin-top: 30px;
+}
+.top50{
+    top: 50px;
+}
+.vertgap100{
+    margin-top: 100px;
+}
+.vertgap10{
+    margin-top: 10px;
+
+}
+.vertgap20{
+    margin-top: 20px;
+}
+.h700{
+    height: 400px;
+}
+.h200{
+    height: 70px;
+}
+.border{
+    border: 5px solid black;
+    border-radius: 2px;
+}
+.border2{
+    border: 3px solid black;
+    border-radius: 2px;
+}
+.flex2{
+    flex: 4;
+}
+.flex1{
+    flex: 1;
+}
+.row{
+    flex-direction: row;
+}
+.pad20{
+    padding: 20px;
+}
+.buttonlogin{
+    width: 100px;
+    height: 25px;
+    background-color: #2B78E4;
+    color: white;
+}
+.bar{
+    width: 400px;
+    height: 25px;
+}
+.defbutton{
+    width: 200px;
+    height: 30px;
+    background-color: #93C47D;
+}
+.dojotext{
+    font-size: medium;
+    font-weight: bold;
+}
+.likebutton{
+    width: 100px;
+    height: 30px;
+    background-color: #FFD966;
+}

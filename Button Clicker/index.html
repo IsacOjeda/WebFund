@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButtonClicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <!------------------------------------------Searchbar------------------------------------------------------>
+    <div class="header flex w900w justcenter margauto pad20 ">
+        <div class="flex aligncenter  gap250">
+            <h1>Dojonary</h1>
+            <input class="bar border2" type="text" name="searchbar" placeholder="Search">
+            <button class="buttonlogin border2"  onclick="logoff(this)">Login</button>
+        </div>
+    </div>
+    <!------------------------------------------Body------------------------------------------------------------>
+<div class="flex w900 h700 col margauto vertgap30">
+<!-----------------------------------------CARD 1-------------------------------------------------------->
+    <div class="CARD1  flex2 pad20 border">
+        <div class="w500 ">
+            <h2>ninja</h2>
+            <h4 class="italic vertgap10">noun</h4>
+            <h4 class="vertgap10">Plural: ninjas</h4>
+            <button onclick="alert('Ninja was liked')" class="vertgap20 likebutton border2">13 likes</button>
+        </div>
+        <div>
+            <h2 class="">A practitioner skilled in the <a href="#"> Japanese </a> art of <a href="#"> ninjustu</a></h2>
+        </div>
+
+</div>
+<!----------------------------------------------CARD 2 ---------------------------------------------------->
+<div class="CARD2 flex2 pad20 border vertgap30">
+    <div class="w500 ">
+        <h2 class="vertgap10">ninja</h2>
+        <h4 class="italic vertgap10">noun</h4>
+        <h4 class="vertgap10">Plural: ninjas</h4>
+        <button onclick="alert('Ninja was liked')" class="vertgap20 likebutton border2">37 likes</button>
+    </div>
+    <div>
+        <h2 class>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h2>
+    </div>
+</div>
+<!-------------------------------------------------DEFINE CARD--------------------------------------------->
+
+    <div class="DEFINE justcenter  aligncenter flex margauto border vertgap10 pad20 w500">
+        <div class=" aligncenter h200">
+            <p class=" dojotext justcenter">Dojonary is defined by YOU</p>
+            <button onclick=removeEl(this) class="defbutton border2">Add definition</button>
+        </div>
+    </div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
