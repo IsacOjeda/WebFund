@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*========================General==============================*/
+.flex{
+    display: flex;
+}
+.margauto{
+    margin: auto;
+}
+.pad30{
+    padding: 30px;
+}
+.pad50{
+    padding: 50px;
+}
+.bggray{
+    background-color: gray;
+}
+.bgblack{
+    background-color: black;
+}
+.white{
+    color: white;
+}
+.rightgap{
+    margin-right: 120px;
+}
+.w600{
+    width: 600px;
+}
+.aligncenter{
+    align-items: center;
+}
+.justcenter{
+    justify-content: center;
+}
+.juststart{
+    justify-content: flex-start;
+}
+.xxlarge{
+    font-size: xx-large;
+}
+.border{
+    border: 3px solid black;
+}
+.col{
+    flex-direction: column;
+}
+.profile{
+    margin: 5px;
+    padding: 20px;
+}
+#avat{
+    height: 50px;
+    width: 50px;
+}
+.vertgap{
+    margin-top: 30px;
+}
+.yellow{
+    background-color: #FFD966;
+}

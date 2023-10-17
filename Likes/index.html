@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!----------------------------Network------------------------------------------------------------------------------------------------------------------>
+    <div class="header flex margauto juststart bgblack pad30 white w600 xxlarge">
+        <p>Network</p>
+    </div>
+    <!-----------------------------Your feed------------------------------------------------------------------------------------------------------------------>
+    <div class="yourfeed flex margauto justcenter xxlarge pad50">
+        <p>Your Feed</p>
+    </div>
+    <!---------------------------------Avatar--------------------------------------------------------------------------------------------------------------->
+    <div class="cards flex justcenter aligncenter">
+        <div class=" border profile aligncenter">
+            <img class="vertgap" id="avat" src="D:/CodingDojo/web_fundamentals/imgs/icons/user-circle.png" alt="avatar">
+            <p class="vertgap"><a href="#">Add an avatar</a></p>
+            <p class="vertgap">James Doe</p>
+        </div>
+        <div class="col">
+
+            <!-------------------------Card 1--------------------------------------------------------------------------------------------------------------------->
+            <div class="card border pad30  w600">
+                <div class="pad50 aligncenter">
+                    <h1 class="rightgap">Niel M</h1>
+                    <p id="count1">9 like(s)</p>
+                    <button class="yellow" onclick="likes1(this)" id="like1">Like</button>
+                </div>
+
+                <div class="fillertext">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+
+            </div>
+            <!-------------------Card 2--------------------------------------------------------------------------------------------------------------------------->
+            <div class="card border pad30 vertgap  w600">
+                <div class="pad50 aligncenter">
+                    <h1 class="rightgap">Nichole K</h1>
+                    <p id="count2">12 like(s)</p>
+                    <button class="yellow" onclick="likes2(this)" id="like2">Like</button>
+                </div>
+
+                <div class="fillertext">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+
+            </div>
+            <!--------------------Card 3--------------------------------------------------------------------------------------------------------------------------->
+            <div class="card pad30  vertgap border w600">
+                <div class="pad50 aligncenter">
+                    <h1 class="rightgap">Jim R</h1>
+                    <p id="count3">9 like(s)</p>
+                    <button class="yellow" onclick="likes3(this)" id="like3">Like</button>
+                </div>
+
+                <div class="fillertext">
+                    <p>I can't stop listening to the <a href="#">new album</a>Who else is liking it?</p>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
