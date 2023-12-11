@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: wedding;
+    src: url("D:/CodingDojo/web_fundamentals/KakedByKJ/KJimgs/HolistaDemo-Rpox6.ttf");
+}
+@font-face {
+    font-family: sharp;
+    src: url("D:/CodingDojo/web_fundamentals/KakedByKJ/KJimgs/SilianRailSharpPersonalLight-jEeZ7.otf");
+}
+/*========================General==============================*/
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.fixed{
+    position: fixed;
+}
+.flexend{
+    justify-content: flex-end;
+}
+.margauto{
+    margin: auto;
+}
+.top300{
+    margin: 150px;
+}
+.marg10{
+    margin: 10px;
+}
+.fifty{
+    height: 70px;
+    width: 70px;
+}
+.sixty{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.aligncenter{
+    align-items: center;
+}
+.justcenter{
+    justify-content: center;
+}
+.pad50{
+    padding: 140px;
+}
+.pad5{
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+.pad40{
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    background-color: rgb(78, 78, 78);
+    background-image: url(D:/CodingDojo/web_fundamentals/KakedByKJ/KJimgs/cupcakescrop2.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    background-blend-mode: multiply;
+    height: 800px;
+    width: 1700px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+}
+.fheader{
+    margin-top: 20px;
+    display: flex;
+    gap: 1500px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.bg{
+    background-color: gray;
+    height: 200px;
+}
+.text{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 445px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.w400{
+    width: 800px;
+}
+.KB{
+    font-size: 50px;
+}
+.K{
+    font-size: 200px;
+    font-family: wedding;
+}
+.AND{
+    font-size: 50px;
+}
+.MWL{
+    font-size: 50px;
+}
+.divider{
+    padding: 500px;
+}
+/*=========================================Gallery===========================================*/
+.body{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 300px;
+}
+
+.slide-container {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: gray;
+    margin-top: 800px;
+}
+
+.image-slider{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+        
+.slides-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.img{
+    position: relative;
+    width: 240px;
+    height: 330px;
+    transition: 0.5s;
+}
+
+.button {
+    position: absolute;
+    width: 240px;
+    height: 330px;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~.image-slider #button-1{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+}
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~.image-slider #button-2{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+}
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~.image-slider #button-3{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+}
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~.image-slider #button-4{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+}
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~.image-slider #button-5{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+}
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~.image-slider #button-6{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+}
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~.image-slider #button-7{
+    width:380px;
+    height: 585px;
+    background-color: transparent;
+}
+#slider-span1:target ~.image-slider{
+    left:40%;
+}
+#slider-span2:target ~.image-slider{
+    left:30%;
+}
+#slider-span3:target ~.image-slider{
+    left:10%;
+}
+#slider-span4:target ~.image-slider{
+    left:0%;
+}
+#slider-span5:target ~.image-slider{
+    left:-10%;
+}
+#slider-span6:target ~.image-slider{
+    left:-30%;
+}
+#slider-span7:target ~.image-slider{
+    left:-40%;
+}
+/*=======================================Order info====================================*/
+.body3{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.884);
+    font-size: 100px;
+    border-radius: 10px;
+    color: white;
+}
+#order:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+} 
+#info{
+    width: 800px;
+    font-size: 40px;
+    font-family: sharp;
+    text-align: center;
+
+}
+
+.slogo{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 60px;
+
+}
+.socials{
+    display: flex;
+}
